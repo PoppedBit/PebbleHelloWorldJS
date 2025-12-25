@@ -45,12 +45,12 @@ The Blood Angels are one of the First Founding Space Marine Chapters from Warham
 ## Development
 
 The watchface is built using:
-- **PebbleJS**: Pure JavaScript implementation in `src/pkjs/index.js`
+- **PebbleJS**: Pure JavaScript implementation in `src/js/app.js`
 - **Pebble SDK 3**: Compatible with all Pebble watch models
 
 ## Files
 
-- `src/pkjs/index.js` - JavaScript watch face implementation
+- `src/js/app.js` - JavaScript watch face implementation
 - `appinfo.json` - Pebble app metadata
 - `wscript` - Build configuration
 
