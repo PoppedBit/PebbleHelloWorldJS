@@ -37,7 +37,7 @@ The Blood Angels are one of the First Founding Space Marine Chapters from Warham
    ```
 4. Install on your Pebble watch:
    ```bash
-   pebble install --emulator aplite
+   sudo pebble install --emulator basalt
    # or
    pebble install --phone <phone_ip>
    ```
