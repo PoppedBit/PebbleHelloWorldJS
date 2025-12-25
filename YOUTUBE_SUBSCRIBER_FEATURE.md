@@ -1,12 +1,12 @@
 # YouTube Subscriber Count Feature
 
-This watchface now displays the YouTube subscriber count for the PoppedBitADV channel in the upper right corner.
+This watchface now displays the YouTube subscriber count for the PoppedBitADV channel in the upper left corner.
 
 ## Display Layout
 
 ```
 ┌────────────────────────────────────┐
-│ 85%                          1.2K  │  <- Battery (left) and Subscribers (right)
+│ 1.2K                          85%  │  <- Subscribers (left) and Battery (right)
 │                                    │
 │                                    │
 │           12:45                    │  <- Time
@@ -57,7 +57,7 @@ Alternatively, you can use a plain text file with just the number:
 
 ## Battery Indicator
 
-The battery indicator has been moved to the upper left corner to make room for the subscriber count. It uses the same GOTHIC_14 font for consistency.
+The battery indicator is displayed in the upper right corner. It uses the GOTHIC_14 font for consistency with the subscriber count.
 
 ## Technical Details
 

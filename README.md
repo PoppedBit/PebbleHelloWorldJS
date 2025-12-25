@@ -9,8 +9,8 @@ This watchface features a clean, simple design with:
 - **Digital time display** in bold, easy-to-read format
 - **Minimalist color scheme**: White time, gold date on black background
 - **Date display**: Day and date below the time
-- **Battery indicator**: Shows battery percentage in the upper left corner
-- **YouTube subscriber count**: Displays subscriber count in the upper right corner (updates every 15 minutes)
+- **YouTube subscriber count**: Displays subscriber count in the upper left corner (updates every 15 minutes)
+- **Battery indicator**: Shows battery percentage in the upper right corner
 
 ## Design Elements
 

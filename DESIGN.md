@@ -4,7 +4,7 @@
 
 ```
 ┌────────────────────────────────────┐
-│ 85%                          1.2K  │  <- Battery (left) and Subscribers (right)
+│ 1.2K                          85%  │  <- Subscribers (left) and Battery (right)
 │                                    │
 │                                    │
 │           12:45                    │  <- White text, large bold font
@@ -42,8 +42,8 @@
 - Automatic time updates every minute
 - 12/24 hour format support (based on watch settings)
 - Date display with day name abbreviation
-- Battery level indicator (upper left)
-- YouTube subscriber count (upper right)
+- YouTube subscriber count (upper left)
+- Battery level indicator (upper right)
 - Subscriber count updates every 15 minutes
 - Minimalist design for quick glanceability
 - Low power consumption (updates only when needed)

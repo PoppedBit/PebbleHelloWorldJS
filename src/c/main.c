@@ -120,23 +120,23 @@ static void main_window_load(Window *window)
     text_layer_set_font(s_date_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18));
     text_layer_set_text_alignment(s_date_layer, GTextAlignmentCenter);
 
-    // Create the battery TextLayer (top-left corner)
-    s_battery_layer = text_layer_create(
-        GRect(5, 5, 45, 20));
-    text_layer_set_background_color(s_battery_layer, GColorBlack);
-    text_layer_set_text_color(s_battery_layer, GColorWhite);
-    text_layer_set_font(s_battery_layer, fonts_get_system_font(FONT_KEY_GOTHIC_14));
-    text_layer_set_text_alignment(s_battery_layer, GTextAlignmentLeft);
-    text_layer_set_text(s_battery_layer, "100%");
-
-    // Create the subscriber count TextLayer (top-right corner)
+    // Create the subscriber count TextLayer (top-left corner)
     s_subscriber_layer = text_layer_create(
-        GRect(bounds.size.w - 50, 5, 45, 20));
+        GRect(5, 5, 45, 20));
     text_layer_set_background_color(s_subscriber_layer, GColorBlack);
     text_layer_set_text_color(s_subscriber_layer, GColorWhite);
     text_layer_set_font(s_subscriber_layer, fonts_get_system_font(FONT_KEY_GOTHIC_14));
-    text_layer_set_text_alignment(s_subscriber_layer, GTextAlignmentRight);
+    text_layer_set_text_alignment(s_subscriber_layer, GTextAlignmentLeft);
     text_layer_set_text(s_subscriber_layer, "---");
+
+    // Create the battery TextLayer (top-right corner)
+    s_battery_layer = text_layer_create(
+        GRect(bounds.size.w - 50, 5, 45, 20));
+    text_layer_set_background_color(s_battery_layer, GColorBlack);
+    text_layer_set_text_color(s_battery_layer, GColorWhite);
+    text_layer_set_font(s_battery_layer, fonts_get_system_font(FONT_KEY_GOTHIC_14));
+    text_layer_set_text_alignment(s_battery_layer, GTextAlignmentRight);
+    text_layer_set_text(s_battery_layer, "100%");
 
     // Add child layers to the Window's root layer
     layer_add_child(window_layer, text_layer_get_layer(s_time_layer));
