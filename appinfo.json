@@ -15,5 +15,5 @@
   "watchapp": {
     "watchface": true
   },
-  "projectType": "native"
+  "projectType": "pebblejs"
 }

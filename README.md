@@ -24,8 +24,8 @@ The Blood Angels are one of the First Founding Space Marine Chapters from Warham
 
 - 24-hour and 12-hour time format support
 - Automatic date updates
-- Compatible with multiple Pebble models (Aplite, Basalt, Chalk, Diorite)
-- Implemented primarily in JavaScript with C companion code
+- Compatible with multiple Pebble models (Aplite, Basalt, Chalk, Diorite, Emery)
+- Implemented entirely in JavaScript using PebbleJS
 
 ## Installation
 
@@ -44,17 +44,14 @@ The Blood Angels are one of the First Founding Space Marine Chapters from Warham
 
 ## Development
 
-The watchface uses:
-- **JavaScript**: Main UI implementation in `src/pkjs/index.js`
-- **C**: Companion code for native rendering in `src/c/main.c`
+The watchface is built using:
+- **PebbleJS**: Pure JavaScript implementation in `src/pkjs/index.js`
 - **Pebble SDK 3**: Compatible with all Pebble watch models
 
 ## Files
 
 - `src/pkjs/index.js` - JavaScript watch face implementation
-- `src/c/main.c` - C companion code for native rendering
 - `appinfo.json` - Pebble app metadata
-- `package.json` - Project configuration
 - `wscript` - Build configuration
 
 ## For Sanguinius! For the Emperor!
